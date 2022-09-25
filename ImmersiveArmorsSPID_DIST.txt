@@ -1,0 +1,97 @@
+//ActorBase (Unique)
+EorlundGrayMane = IAOutfitEorlund
+GeneralTullius = CWSoldierImperialTulliusOutfitNoHelmet
+Hadvar = IAOutfitHadvir
+MS08Kematu = RedguardClothesOutfit01
+Ralof = IAOutfitRalofPrisoner
+Rikke = IAOutfitImperialOfficer
+Ulfric = UlfricOutfit
+CWBattleRikke = IAOutfitImperialOfficer
+DA01MalynVaren = WEMageStaffShieldOutfit
+
+
+//Formlist
+IAOutfitCompanionsShieldList||Athis, Njada Stonearm, Ria, Skjor, Torvar, Vilkas,
+IAOutfitDaedricLordList ||Sanguine, Dremora, Dremora Lord
+IAOutfitKhajiitList||Ahkari, Atahba, Madran, Majhad, Risaad, Zaynabi, Dromarash, Khayla, Ra'zhinda,
+IAOutfitOrcChiefList||Chief Burguk, Chief Larak, Chief Mauhulakh,
+IAOutfitOrcWarriorList||DA06LvlOrcMelee, Gharol, Ghorbash the Iron Hand, Gularzob, Nagrub, Ogol, Ugor
+IAOutfitOrcWorkerList||Bor, Dulug, Dushnamub, Gadba gro-Largash, Garakh, Ghak, Ghamorz, Gul, Mahk, Mogdurz, Mul gro-Largash, Oglub, Olur, Shuftharz, Uglarz, Umurn,
+IAOutfitScoutList||Anoriath, J'Kier, Rissing, Eriana, Ra'kheran, Tsaruna, Torkild the Fearsome, Yar gro-Gatuk, Ahjisi, Heratar, Seasoned Hunter, Barknar, Karita, Lob, Urog, Yatul,
+IAOutfitSeadogList||Deeja, Dalan Merchad, Deekus, Captain Hargar, Guthrum, Jaree-Ra, Kjar, Captain Wayfinder, Velehk Sain, Ravam Verethi, Sabine Nytte, Safia, Dorian, Xander, Voldsea Giryon,
+IAOutfitShamanList||Atub, Bolar, Murbul, Sharamph,
+IAOutfitBanditMageList||Blood Horker, Reckless Mage, EncBandit01TemplateMagic, EncBandit0#TemplateMagic
+IAOutfitWerewolfList||Werewolf*
+IADLStormlordNoHelm and IASetStormlordPrisoner || Ulfric
+
+
+IASharedListDeathItemGiant
+IASharedListDeathItemMudcrab01
+IASharedListDeathItemMudcrab02
+IASharedListDeathItemMudcrab03
+IASharedListDeathItemTroll
+IASharedListDeathItemTrollFrost
+IASharedListDeathItemWarlock
+IASharedListDeathItemWerewolf
+
+//NPCs
+DA02CultistF2
+WEDA02Cultist
+LvlSilverHandMelee1H/2H/Any/Missile
+Afflicted
+Alikr
+Bandit
+Battlemage
+Draugr
+Forsworn
+Hunter
+Khajiit
+Orc ||Chief, Worker, Shaman
+Robber
+Seadog ||SailorFaction
+Soldier ||Imperial Officer,
+Thalmor
+Vampire
+Vigilant
+Warlock
+Creatures
+
+//Outfit
+ArmorSteelNoHelmetOutfit
+WarlockOutfitLeveled
+WEBattleMageOutfit
+WEBerserkerOutfit
+WEBrawlerOutfit
+WESpellswordOutfit
+WEThiefOutfit
+WEWarriorTankOutfit
+BanditMageOutfit
+HunterClothesRND
+
+//Items and Materials
+LItemLeatherandStrips75
+LItemLootIMineralsProcessed
+LItemMiscVendorAnimalPart75
+LItemMiscVendorMineralsProcessed25
+
+
+;;BanditHeavy&Light
+Outfit = 0x18CA~ImmersiveArmors-SPID.esp|TypeFactionBandit
+Outfit = 0x18CB~ImmersiveArmors-SPID.esp|TypeFactionBandit
+;;Khajiit
+Outfit = 0x18CC~ImmersiveArmors-SPID.esp|RaceKhajiit,KhajiitCaravanFaction,
+;;Warlock
+Outfit = 0x18CD~ImmersiveArmors-SPID.esp|TypeFactionWarlock,-Unique,-isSummon,
+;;Forsworn
+Outfit = 0x18CE~ImmersiveArmors-SPID.esp|TypeFactionForsworn,-TypeClassBriarheart,
+;;Robber
+Outfit = 0x18CF~ImmersiveArmors-SPID.esp|WEThief*,
+;;Battlemage
+Outfit = 0x18D0~ImmersiveArmors-SPID.esp|WEAdventurerBattlemage*,
+;;Orc
+Outfit = 0x18D1~ImmersiveArmors-SPID.esp|OrcFriendFaction,
+;;Spellsword
+Outfit = 0x18D2~ImmersiveArmors-SPID.esp|WEAdventurerSpellsword*,
+
+;;OutfitUlfricPrisoner
+0x06B4E5~Hothtrooper44_ArmorCompilation.esp|
